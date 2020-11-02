@@ -1,0 +1,26 @@
+{
+    "name": "@casthub/cli-github-action",
+    "version": "1.0.0",
+    "description": "Set-up CastHub CLI within your GitHub Actions",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "ncc build index.js -o dist --source-map --license licenses.txt"
+    },
+    "author": "CastHub Limited",
+    "dependencies": {
+        "@actions/core": "^1.2.6",
+        "@actions/exec": "^1.0.4"
+    },
+    "devDependencies": {
+        "@vercel/ncc": "^0.24.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/casthub/cli-github-action.git"
+    },
+    "bugs": {
+        "url": "https://github.com/casthub/cli-github-action/issues"
+    },
+    "homepage": "https://casthub.app/docs"
+}
