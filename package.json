@@ -1,6 +1,6 @@
 {
     "name": "@casthub/cli-github-action",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Set-up CastHub CLI within your GitHub Actions",
     "main": "index.js",
     "license": "Apache-2.0",
